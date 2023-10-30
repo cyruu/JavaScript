@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 200px;
+        font-family: sans-serif;
+        padding-left: 15px;
+        margin-bottom: 20px;
+      }
+      #title,
+      #title2 {
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(41, 153, 161);
+      }
+
+      #content {
+        margin-top: 2rem;
+        text-align: left;
+      }
+      #content2 {
+        margin-top: 1rem;
+        text-align: left;
+      }
+      #inp,
+      #real-inp {
+        outline: none;
+        border: 1px solid black;
+        padding: 8px;
+        border-radius: 25px;
+      }
+      #submit {
+        margin-top: 1.2rem;
+        margin-left: 57px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        padding: 10px 15px;
+        border-color: gray;
+        background-color: rgb(34, 139, 147);
+      }
+    </style>
+  </head>
+  <body>
+    <p id="title"><b>Ready to change paragraphs</b></p>
+    <p id="content">Enter content</p>
+    <input type="text" id="inp" name="inp" placeholder="eg: Paragraph" />
+    <button id="submit">Change</button>
+    <p id="title2" style="margin-top: 1.3rem"><b>Real Time</b></p>
+    <p id="content2">Enter content</p>
+    <input
+      type="text"
+      id="real-inp"
+      name="real-inp"
+      placeholder="eg: Paragraph"
+    />
+  </body>
+  <script src="popup.js"></script>
+</html>

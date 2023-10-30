@@ -1,0 +1,20 @@
+{
+  "name": "ParaGraph",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "This extension will change the content of paragraph tag to whatever you type.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["paragraph.js"]
+    }
+  ],
+  "icons": {
+    "128": "lg_white.png"
+  },
+  "permissions": ["tabs"],
+  "action": {
+    "default_icon": "lg_white.png",
+    "default_popup": "popup.html"
+  }
+}
