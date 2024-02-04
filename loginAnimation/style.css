@@ -1,0 +1,103 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background: none;
+  background-color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-radius: 25px;
+  color: black;
+  margin-top: 0px;
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 80px;
+}
+section {
+  font-family: sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(210, 210, 210);
+  height: 400px;
+  width: 600px;
+  /* background-color: red; */
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 5px gray;
+}
+.inputfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input:focus {
+  outline: none;
+}
+input {
+  font-size: 0.9rem;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+.login-form,
+.signup-form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  /* background-color: yellow; */
+}
+.signup-form {
+  /* background-color: blue; */
+}
+.sliders {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(205, 113, 113);
+
+  /* display: flex; */
+  transition: all 0.3s ease;
+}
+.icons {
+  margin: 40px 0;
+}
+.icons i {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+.signup-slider,
+.login-slider {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  position: absolute;
+  /* background-color: gray; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.displaynone {
+  opacity: 0;
+  pointer-events: none;
+}
+.slide {
+  transform: translateX(100%);
+}
