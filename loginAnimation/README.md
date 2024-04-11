@@ -1,4 +1,4 @@
-<h1>Login Animation in HTML</h1>
+<h1>Login Animation in HTML, CSS and</h1>
 <hr/>
 Sign Up
 
