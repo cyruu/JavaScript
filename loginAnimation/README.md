@@ -1,5 +1,5 @@
 <h1>Login Animation</h1>
-
+<hr/>
 Sign Up
 
 ![signup](https://github.com/cyruu/JavaScript/assets/133951860/75af6e1c-c11b-44ba-bbc3-150aa2376bf2)
