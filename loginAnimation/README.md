@@ -1,4 +1,4 @@
-Login
+Login animation
 
 Sign Up
 
